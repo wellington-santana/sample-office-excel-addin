@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Overview
 Criar um suplemento para Office é muito útil nos momentos que temos que ter uma interação na aplicação da Microsoft e adicionar alguma regra de negócio antes do consumo. 
 
