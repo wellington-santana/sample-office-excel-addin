@@ -1,0 +1,23 @@
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="https://lh3.googleusercontent.com/proxy/UYWHGJKtoQ6y31Yq6P6_KzBOBAYmVJDnl5SDMZPMEnU_MVEsCHJdTjbPfJYE6hRXgtXspIXhNQHGWNgmUTrwtVFLPcAz8n_W7Ks9AXJvIn1evz4" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    <form>
+      <input type="text" id="login" name="login" placeholder="Usuário" #usuario />
+      <input type="text" id="password" name="login" placeholder="Senha" type="password" #senha />
+      <input *ngIf="!isLoading" type="button" value="Acessar" (click)="login(usuario.value, senha.value)" />
+      <div *ngIf="isLoading" class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div *ngIf="isShowAlert" class="alert alert-danger" role="alert">
+        {{ message }}
+      </div>
+    </form>
+  </div>
+</div>
