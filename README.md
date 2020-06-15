@@ -198,3 +198,9 @@ O início de qualquer desenvolvimento, tecnologia ou coisas que fogem da nossa z
 Espero realmente que essa descrição da minha jornada de desenvolvimento ajude os próximos que encontrarem dificuldades  e facilite o 'getting started'.
 
 Fico a disposição para esclarecer dúvidas e discutir melhorias/ correções nos relatos acima.
+
+![alt](/readme_img/4.png)
+![alt](/readme_img/5.png)
+![alt](/readme_img/6.png)
+![alt](/readme_img/7.png)
+![alt](/readme_img/8.png)
